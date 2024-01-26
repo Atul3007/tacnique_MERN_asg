@@ -1,0 +1,67 @@
+/* Common styles for buttons */
+.add-user-button,
+.close-user-button,
+.delete-button,
+.edit-button {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px; /* Adjust as needed */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-user-button {
+  background-color: rgb(248, 36, 36);
+  margin-left: 1100px;
+}
+
+.close-user-button {
+  background-color: #4caf50;
+  margin-left: 800px;
+}
+
+/* Table styles */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Button styles for edit and delete */
+.edit-button,
+.delete-button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  width: 80px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+@media screen and (max-width: 600px) {
+  .add-user-button,
+  .close-user-button,
+  .delete-button,
+  .edit-button {
+    margin-left: 0;
+  }
+
+}
