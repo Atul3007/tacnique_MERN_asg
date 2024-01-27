@@ -20,3 +20,30 @@ Welcome to the UserDashboard application! This MERN (MongoDB, Express.js, React,
 * Node.js Environment:
 
 * Run the application on Node.js, providing a scalable and efficient server environment.
+
+## Getting Started
+* Clone the Repository:
+
+### Copy code
+* git clone 
+
+### Install Dependencies:
+* Copy code
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+npm install
+
+### Run the Application:
+Copy code
+
+# Run the server (from the server directory)
+npm start
+
+# Run the client (from the client directory)
+npm start
+Access the Application:
+
+Open your browser and go to http://localhost:3000.
